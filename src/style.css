@@ -1,0 +1,32 @@
+.Calculator {
+	background: #aaaaaa;
+	display: inline-block;
+	padding: 10px;
+	user-select: none;
+}
+
+.Calculator > .Display {
+	background: #000;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 36px;
+	height: 1em;
+	line-height: 1em;
+	margin-bottom: 10px;
+	margin: 5px;
+	padding: 5px;
+	text-align: right;
+}
+
+.Calculator > .KeyBoard {
+}
+
+.Calculator > .KeyBoard button {
+	border-radius: 5px;
+	border: none;
+	font-size: 24px;
+	height: 40px;
+	margin: 5px;
+	padding: 6px;
+	width: 40px;
+}
